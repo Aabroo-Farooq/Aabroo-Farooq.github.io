@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO -->
+<title>Aabroo Farooq | Aspiring Data Scientist — Python, SQL, Power BI, Machine Learning</title>
+<meta name="description" content="Portfolio of Aabroo Farooq, an aspiring Data Scientist from Jammu &amp; Kashmir, India with an MCA and a background in Electrical Engineering. Skilled in Python, SQL, Power BI, Machine Learning, Data Analysis and Data Visualization.">
+
+<meta name="keywords" content="Aabroo Farooq, Data Scientist, Data Analyst, Python Developer, SQL, Power BI, Machine Learning Engineer, Data Analysis, Data Visualization, Web Scraping, BeautifulSoup, Exploratory Data Analysis, MCA, Amity University, University of Kashmir, Jammu and Kashmir Data Scientist">
+<meta name="author" content="Aabroo Farooq">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://aabroo-farooq.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Aabroo Farooq | Aspiring Data Scientist">
+<meta property="og:description" content="Python, SQL, Power BI and Machine Learning — portfolio of an aspiring Data Scientist from Jammu & Kashmir, India.">
+<meta property="og:url" content="https://aabroo-farooq.github.io/">
+<meta property="og:site_name" content="Aabroo Farooq — Portfolio">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Aabroo Farooq | Aspiring Data Scientist">
+<meta name="twitter:description" content="Python, SQL, Power BI and Machine Learning — portfolio of an aspiring Data Scientist from Jammu & Kashmir, India.">
+
+<!-- Structured data for search engines / ATS crawlers -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Aabroo Farooq",
+  "jobTitle": "Aspiring Data Scientist",
+  "url": "https://aabroo-farooq.github.io/",
+  "email": "mailto:aabroofarooq9@gmail.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/aabroofarooq99",
+    "https://aabroo-farooq.github.io/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Jammu & Kashmir",
+    "addressCountry": "India"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Amity University, Noida"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Kashmir"
+    }
+  ],
+  "knowsAbout": ["Python", "SQL", "Power BI", "Machine Learning", "Data Analysis", "Data Visualization", "Pandas", "NumPy", "Matplotlib", "Seaborn", "BeautifulSoup", "Web Scraping", "Exploratory Data Analysis"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:#FAF6EC;
+    --paper-2:#F2ECDD;
+    --ink:#182338;
+    --ink-soft:#4B5568;
+    --saffron:#C67D1E;
+    --teal:#1E6B71;
+    --chinar:#8A3A28;
+    --line:#DDD3B8;
+    --max:1080px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.6;
+  }
+  a{color:inherit;}
+  .mono{font-family:'JetBrains Mono', monospace;}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 32px;}
+
+  /* skip link for accessibility */
+  .skip-link{position:absolute; left:-999px; top:0; background:var(--ink); color:var(--paper); padding:10px 16px; z-index:100;}
+  .skip-link:focus{left:16px; top:16px;}
+
+  /* NAV */
+  header.site-nav{
+    position:sticky; top:0; z-index:20;
+    background:rgba(250,246,236,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:var(--max); margin:0 auto; padding:18px 32px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .nav-mark{font-family:'Fraunces', serif; font-weight:600; font-size:1.1rem; letter-spacing:0.02em;}
+  .nav-links{display:flex; gap:28px; list-style:none;}
+  .nav-links a{
+    text-decoration:none; font-size:0.82rem; letter-spacing:0.06em; text-transform:uppercase;
+    color:var(--ink-soft); font-family:'JetBrains Mono', monospace;
+    border-bottom:1px solid transparent; padding-bottom:2px; transition:border-color .2s, color .2s;
+  }
+  .nav-links a:hover, .nav-links a:focus-visible{ color:var(--chinar); border-color:var(--chinar);}
+
+  /* HERO */
+  .hero{position:relative; overflow:hidden; padding:96px 0 72px;}
+  .hero-grid{
+    display:grid; grid-template-columns: 1.15fr 0.85fr; gap:48px; align-items:center;
+  }
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace; text-transform:uppercase; letter-spacing:0.14em;
+    font-size:0.78rem; color:var(--teal); margin-bottom:18px; display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{content:''; width:22px; height:1px; background:var(--teal);}
+  h1.name{
+    font-family:'Fraunces', serif; font-weight:600; font-size:clamp(2.6rem, 6vw, 4.6rem);
+    line-height:1.02; letter-spacing:-0.01em; color:var(--ink);
+  }
+  .role-line{
+    margin-top:18px; font-size:1.05rem; color:var(--ink-soft); max-width:46ch;
+  }
+  .role-line strong{color:var(--ink); font-weight:600;}
+  .hero-links{margin-top:34px; display:flex; flex-wrap:wrap; gap:14px 26px;}
+  .hero-links a{
+    text-decoration:none; font-family:'JetBrains Mono', monospace; font-size:0.85rem;
+    color:var(--ink); border-bottom:1px solid var(--ink); padding-bottom:2px; transition:color .2s, border-color .2s;
+  }
+  .hero-links a:hover, .hero-links a:focus-visible{color:var(--saffron); border-color:var(--saffron);}
+
+  /* signature chinar network graphic */
+  .leaf-wrap{display:flex; justify-content:center; align-items:center;}
+  .leaf-wrap svg{width:100%; max-width:380px; height:auto;}
+  .leaf-node{fill:var(--saffron);}
+  .leaf-node.teal{fill:var(--teal);}
+  .leaf-node.ink{fill:var(--ink);}
+  .leaf-edge{stroke:var(--ink); stroke-width:1; opacity:0.35;}
+  .leaf-outline{fill:none; stroke:var(--chinar); stroke-width:1.4; opacity:0.55;}
+
+  /* SECTION scaffolding */
+  section{padding:76px 0;}
+  .section-head{display:flex; align-items:baseline; gap:16px; margin-bottom:40px;}
+  .section-num{font-family:'JetBrains Mono', monospace; font-size:0.8rem; color:var(--saffron);}
+  h2{
+    font-family:'Fraunces', serif; font-weight:600; font-size:clamp(1.6rem, 3vw, 2.2rem); letter-spacing:-0.01em;
+  }
+  .rule{height:1px; background:var(--line); border:none; margin:0;}
+
+  /* ABOUT */
+  .about-grid{display:grid; grid-template-columns: 1.5fr 1fr; gap:56px;}
+  .about-text p{color:var(--ink-soft); margin-bottom:16px; max-width:62ch;}
+  .about-text p strong{color:var(--ink);}
+  .stat-panel{
+    background:var(--paper-2); border:1px solid var(--line); padding:28px; align-self:start;
+  }
+  .stat-row{display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px solid var(--line); font-size:0.9rem;}
+  .stat-row:last-child{border-bottom:none;}
+  .stat-label{color:var(--ink-soft); font-family:'JetBrains Mono', monospace; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.06em;}
+  .stat-value{font-weight:600;}
+
+  /* SKILLS */
+  .skills-matrix{display:grid; grid-template-columns:repeat(2, 1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  .skill-cat{background:var(--paper); padding:26px 28px;}
+  .skill-cat h3{
+    font-family:'JetBrains Mono', monospace; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em;
+    color:var(--teal); margin-bottom:14px;
+  }
+  .skill-tags{display:flex; flex-wrap:wrap; gap:8px 10px;}
+  .skill-tags span{
+    font-size:0.86rem; padding:5px 0; border-bottom:1px dotted var(--line); color:var(--ink);
+  }
+  .skill-tags span:not(:last-child)::after{content:'·'; margin-left:10px; color:var(--saffron);}
+
+  /* PROJECTS */
+  .project-list{display:flex; flex-direction:column; gap:0;}
+  .project-card{
+    padding:30px 0; border-bottom:1px solid var(--line);
+  }
+  .project-card:first-child{padding-top:0;}
+  .project-card:last-child{border-bottom:none; padding-bottom:0;}
+  .project-head{
+    display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin-bottom:14px;
+  }
+  .project-title{font-family:'Fraunces', serif; font-weight:600; font-size:1.2rem;}
+  .project-stack{
+    font-family:'JetBrains Mono', monospace; font-size:0.78rem; color:var(--teal);
+    letter-spacing:0.02em;
+  }
+  .project-links{margin-left:auto; display:flex; gap:16px;}
+  .project-links a{
+    font-family:'JetBrains Mono', monospace; font-size:0.78rem; text-decoration:none;
+    color:var(--ink); border-bottom:1px solid var(--ink); padding-bottom:1px;
+    transition:color .2s, border-color .2s; white-space:nowrap;
+  }
+  .project-links a:hover, .project-links a:focus-visible{color:var(--saffron); border-color:var(--saffron);}
+  .project-card ul{list-style:none; display:flex; flex-direction:column; gap:8px;}
+  .project-card li{
+    position:relative; padding-left:20px; color:var(--ink-soft); font-size:0.95rem; max-width:74ch;
+  }
+  .project-card li::before{
+    content:''; position:absolute; left:0; top:9px; width:6px; height:6px;
+    background:var(--saffron); border-radius:50%;
+  }
+
+  /* EDUCATION timeline */
+  .timeline{position:relative; padding-left:32px; border-left:1px solid var(--line);}
+  .tl-item{position:relative; padding-bottom:44px;}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-item::before{
+    content:''; position:absolute; left:-37px; top:4px; width:9px; height:9px; border-radius:50%;
+    background:var(--saffron); border:2px solid var(--paper); outline:1px solid var(--saffron);
+  }
+  .tl-date{font-family:'JetBrains Mono', monospace; font-size:0.78rem; color:var(--teal); margin-bottom:6px; display:block;}
+  .tl-school{font-family:'Fraunces', serif; font-weight:600; font-size:1.15rem;}
+  .tl-degree{color:var(--ink-soft); margin-top:4px;}
+
+  /* CONTACT / FOOTER */
+  footer{
+    background:var(--ink); color:var(--paper); padding:64px 0 40px; margin-top:40px;
+  }
+  footer h2{color:var(--paper);}
+  footer .section-num{color:var(--saffron);}
+  .contact-links{display:flex; flex-wrap:wrap; gap:20px 40px; margin-top:28px;}
+  .contact-links a{
+    text-decoration:none; font-family:'JetBrains Mono', monospace; font-size:0.95rem;
+    color:var(--paper); border-bottom:1px solid rgba(250,246,236,0.4); padding-bottom:3px;
+    transition:border-color .2s, color .2s;
+  }
+  .contact-links a:hover, .contact-links a:focus-visible{color:var(--saffron); border-color:var(--saffron);}
+  .foot-note{margin-top:48px; font-size:0.78rem; color:rgba(250,246,236,0.55); font-family:'JetBrains Mono', monospace;}
+
+  @media (max-width:760px){
+    .hero-grid{grid-template-columns:1fr; text-align:left;}
+    .leaf-wrap{order:-1; max-width:220px; margin:0 auto 12px;}
+    .about-grid{grid-template-columns:1fr;}
+    .skills-matrix{grid-template-columns:1fr;}
+    .nav-links{gap:16px;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <span class="nav-mark">Aabroo Farooq</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Jammu &amp; Kashmir, India</p>
+        <h1 class="name">Aabroo Farooq</h1>
+        <p class="role-line">
+          <strong>Aspiring Data Scientist</strong> turning electrical engineering rigor into data-driven insight —
+          working across Python, SQL, Power BI and Machine Learning to analyse, visualise and explain data.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:aabroofarooq9@gmail.com">aabroofarooq9@gmail.com</a>
+          <a href="https://aabroo-farooq.github.io/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/aabroofarooq99" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="leaf-wrap" aria-hidden="true">
+        <svg viewBox="0 0 300 320" fill="none">
+          <path class="leaf-outline" d="M150 20
+            C 190 55, 205 60, 245 55
+            C 225 90, 220 105, 235 140
+            C 195 130, 180 138, 165 170
+            C 200 190, 215 205, 225 245
+            C 185 235, 168 240, 150 265
+            C 132 240, 115 235, 75 245
+            C 85 205, 100 190, 135 170
+            C 120 138, 105 130, 65 140
+            C 80 105, 75 90, 55 55
+            C 95 60, 110 55, 150 20 Z" />
+          <line class="leaf-edge" x1="150" y1="60" x2="150" y2="260"/>
+          <line class="leaf-edge" x1="150" y1="90" x2="205" y2="70"/>
+          <line class="leaf-edge" x1="150" y1="90" x2="95" y2="70"/>
+          <line class="leaf-edge" x1="150" y1="140" x2="220" y2="130"/>
+          <line class="leaf-edge" x1="150" y1="140" x2="80" y2="130"/>
+          <line class="leaf-edge" x1="150" y1="190" x2="205" y2="215"/>
+          <line class="leaf-edge" x1="150" y1="190" x2="95" y2="215"/>
+          <line class="leaf-edge" x1="150" y1="90" x2="150" y2="140"/>
+          <line class="leaf-edge" x1="150" y1="140" x2="150" y2="190"/>
+          <circle class="leaf-node" cx="150" cy="60" r="4.5"/>
+          <circle class="leaf-node teal" cx="205" cy="70" r="4"/>
+          <circle class="leaf-node teal" cx="95" cy="70" r="4"/>
+          <circle class="leaf-node ink" cx="150" cy="90" r="4"/>
+          <circle class="leaf-node" cx="220" cy="130" r="4"/>
+          <circle class="leaf-node" cx="80" cy="130" r="4"/>
+          <circle class="leaf-node ink" cx="150" cy="140" r="5"/>
+          <circle class="leaf-node teal" cx="205" cy="215" r="4"/>
+          <circle class="leaf-node teal" cx="95" cy="215" r="4"/>
+          <circle class="leaf-node ink" cx="150" cy="190" r="4"/>
+          <circle class="leaf-node" cx="150" cy="260" r="4.5"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-num mono">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am an <strong>aspiring Data Scientist</strong> with a background in Electrical Engineering and a Master of Computer Applications (MCA). Over the course of my studies I've built skills in Python, SQL, Power BI, Machine Learning, Data Analysis and Data Visualization.</p>
+          <p>I have hands-on experience working with Python libraries such as <strong>Pandas, NumPy, Matplotlib and Seaborn</strong>, alongside SQL for data querying and Power BI for building interactive dashboards and reports.</p>
+          <p>I'm interested in solving real-world problems using data-driven approaches and machine learning techniques, and I'm currently looking for opportunities in <strong>Data Science, Data Analytics, Machine Learning and Business Intelligence</strong> where I can apply my skills and keep learning.</p>
+        </div>
+        <div class="stat-panel">
+          <div class="stat-row"><span class="stat-label">Focus</span><span class="stat-value">Data Science</span></div>
+          <div class="stat-row"><span class="stat-label">Degree</span><span class="stat-value">MCA, 2026</span></div>
+          <div class="stat-row"><span class="stat-label">Foundation</span><span class="stat-value">B.Tech EE</span></div>
+          <div class="stat-row"><span class="stat-label">Location</span><span class="stat-value">J&amp;K, India</span></div>
+          <div class="stat-row"><span class="stat-label">Open to</span><span class="stat-value">On-site · Hybrid</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-num mono">02</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-matrix">
+        <div class="skill-cat">
+          <h3>Languages &amp; Querying</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <h3>Machine Learning &amp; Analysis</h3>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>Data Analysis</span><span>Data-driven Problem Solving</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <h3>Visualization &amp; BI</h3>
+          <div class="skill-tags">
+            <span>Power BI</span><span>Matplotlib</span><span>Seaborn</span><span>Data Visualization</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <h3>Python Libraries</h3>
+          <div class="skill-tags">
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-num mono">03</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-head">
+            <span class="project-title">Flipkart Mobile Phones Web Scraper</span>
+            <span class="project-stack">Python · BeautifulSoup · Requests</span>
+            <span class="project-links"><a href="https://aabroo-farooq.github.io/" target="_blank" rel="noopener">Code ↗</a></span>
+          </div>
+          <ul>
+            <li>Developed a Python web scraper using BeautifulSoup and Requests to extract mobile phone listing data from Flipkart.</li>
+            <li>Processed HTML content to identify and extract relevant product fields such as name, price, and ratings.</li>
+            <li>Structured and saved the scraped data into CSV format for further use and analysis.</li>
+            <li>Applied problem-solving skills to handle inconsistent page structures during the scraping process.</li>
+            <li>Published the project code on GitHub.</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <div class="project-head">
+            <span class="project-title">Makeup Dataset Analysis</span>
+            <span class="project-stack">Python · Pandas · NumPy · Matplotlib · Seaborn</span>
+            <span class="project-links"><a href="https://aabroo-farooq.github.io/" target="_blank" rel="noopener">Code ↗</a></span>
+          </div>
+          <ul>
+            <li>Performed exploratory data analysis (EDA) on a makeup/cosmetics product dataset using Pandas and NumPy.</li>
+            <li>Cleaned and processed raw data to handle missing values and inconsistencies prior to analysis.</li>
+            <li>Created visualizations with Matplotlib and Seaborn to explore trends and relationships within the dataset.</li>
+            <li>Applied statistical concepts to interpret patterns and summarize key findings from the data.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-num mono">04</span>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="tl-date mono">AUG 2024 – SEP 2026</span>
+          <div class="tl-school">Amity University, Noida</div>
+          <div class="tl-degree">Master of Computer Applications (MCA)</div>
+        </div>
+        <div class="tl-item">
+          <span class="tl-date mono">NOV 2019 – NOV 2023</span>
+          <div class="tl-school">University of Kashmir</div>
+          <div class="tl-degree">Bachelor of Technology (B.Tech) — Electrical Engineering</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-num mono">05</span>
+      <h2>Contact</h2>
+    </div>
+    <p style="color:rgba(250,246,236,0.75); max-width:52ch;">
+      Open to opportunities in Data Science, Data Analytics, Machine Learning and Business Intelligence — on-site or hybrid, based in Jammu &amp; Kashmir, India.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:aabroofarooq9@gmail.com">Email — aabroofarooq9@gmail.com</a>
+      <a href="https://aabroo-farooq.github.io/" target="_blank" rel="noopener">GitHub — Aabroo-Farooq.github.io</a>
+      <a href="https://www.linkedin.com/in/aabroofarooq99" target="_blank" rel="noopener">LinkedIn — /in/aabroofarooq99</a>
+    </div>
+    <p class="foot-note">© 2026 Aabroo Farooq. Built for search engines and human recruiters alike.</p>
+  </div>
+</footer>
+
+</body>
+</html>
